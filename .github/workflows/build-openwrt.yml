@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: new OpenWrt
+name: neww OpenWrt
 
 on: 
   release:
@@ -18,8 +18,8 @@ on:
       - '2019.config'
 #  schedule:
 #    - cron: 0 8 * * 5
-  watch:
-    types: [started]
+#  watch:
+#    types: [started]
 
 jobs:
   build:
